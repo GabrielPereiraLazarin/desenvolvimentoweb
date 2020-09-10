@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="Autor">
+    <meta name="Gabriel Lazarin">
+    <style type="text/css">
+     
+      body {
+        margin: 5%;
+      }
+    	.light-mode {
+        color: black;
+        background: white;
+      }
+      .dark-mode {
+        color: white;
+        background: black;
+      }
+      
+      .dark-mode a:link {
+        color: #66ffff;
+        text-decoration: none;
+      }
+      .dark-mode a:visited {
+        color: #ff99ff;
+        text-decoration: none;
+      }
+      .dark-mode a:hover {
+        text-decoration: underline overline;
+      }
+      .dark-mode a:active {
+        color: #ff0000;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Trocar entre modo claro e escuro -->
+    <p> <a href="javascript:darkMode()"> </a></p>
+    <p><a href="javascript:darkMode()"> </a> Modo Light/Dark<a href="javascript:lightMode()"><br>
+      </a></p>
+    <p><a href="javascript:lightMode()"><img src="file:///C:/Users/gabri/OneDrive/%C3%81rea%20de%20Trabalho/lampada_ligada.png"
+          style="width: 55px; height: 36px;"></a><a href="javascript:darkMode()"><img
+          src="file:///C:/Users/gabri/OneDrive/%C3%81rea%20de%20Trabalho/dark.jpg"
+          style="width: 47px; height: 31px;" longdesc="javascript:;" &gt;="" <=""
+          p=""></a><a href="javascript:lightMode()"> </a></p>
+    <div id="luz"><a href="javascript:darkMode()"> </a></div>
+    <a href="javascript:darkMode()">
+      <script type="text/javascript">
+    	function lightMode() {
+        document.body.className = "light-mode";
+        
+      }
+      function darkMode() {
+        document.body.className = "dark-mode";
+      }
+    </script> </a>
+    <!--Escrita -->
+    <h1>
+      <center> <strong style="font-family: Arial;">Saúde em foco!<br>
+        </strong></center>
+    </h1>
+    <center><img src="file:///C:/Users/gabri/OneDrive/%C3%81rea%20de%20Trabalho/saude.png"
+        alt="" title="Saude em foco" style="width: 316px; height: 300px;"></center>
+    <p> </p>
+    <br>
+    <p>Durante a quarentena nós deixamos a parte da saúde de lado!<br>
+    </p>
+    <ul>
+      <li><a href="calculo_imc.html" target="_blank" title="CalculoImc">IMC</a></li>
+      <li><a href="#">Receitas FIT</a></li>
+    </ul>
+  </body>
+</html>
